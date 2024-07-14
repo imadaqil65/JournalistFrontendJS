@@ -1,0 +1,519 @@
+/* Base styles */
+
+/* Responsive part */
+
+/* iPhone 14 Pro Max - up to 430px */
+@media (max-width: 431px) {
+    .contents {
+        width: 100%;
+        height: 100%;
+    }
+    .news-con h1{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+    }
+    .inside-article-form{
+        align-items: flex-start;
+        flex-direction: column;
+        
+    }
+    .login-container{
+        width: 75%;
+        margin-top: 100px;
+    }
+    
+}
+
+/* 2xl - up to 1280px */
+@media (max-width: 1280px) {
+    /* .contents {
+        width: 100%;
+    } */
+     
+    .login-container{
+        width: 35%;
+    }
+    .register-container{
+        width: 50%;
+    }
+    .profile-con{
+        width: 60%;
+    }
+    .article-management-con{
+        width: 70%;
+    }
+    /* #document{
+        align-self: center;
+        width: 50%;
+    } */
+    .inside-article-form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ck-editor__main{
+        max-width: 800px;
+    }
+    .welcome-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 80px;
+    }
+    .news-con h1{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+/* xl - up to 1024px */
+@media (max-width: 1024px) {
+    /* .contents {
+        width: 100%;
+    } */
+    .welcome-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px;
+    }
+    .news-con h1{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .ck-editor__main{
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .ck-editor__main{
+        max-width: 200px;
+    }
+}
+
+/* lg - up to 768px */
+@media (max-width: 768px) {
+    /* .contents {
+        width: 100%;
+    } */
+    .login-container{
+        width: 50%;
+    }
+    .register-container{
+        width: 70%;
+    }
+    .profile-con{
+        width: 70%;
+        height: 100%;
+    }
+    .inside-profile-con{
+        flex-direction: column;
+        height: 100%;
+    }
+    .welcome-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+    }
+    nav{
+        flex-direction: column;
+        /* height: 100%; */
+        z-index: 1;
+    }
+    .responsive-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .links ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .burger-menu a{
+        font-size: 40px;
+        text-decoration: none;
+    }
+    .links{
+        display: none;
+        transition: all .5s ease-in-out;
+    }
+    .links.open {
+        display: flex;
+    }
+    .news-con h1{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+}
+
+/* md - up to 640px  iphone 14 pro max*/
+@media (max-width: 640px) {
+    /* .contents {
+        width: 100%;
+    } */
+    .welcome-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+    }
+    .news-con h1{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+    .login-container{
+        width: 75%;
+        margin-top: 100px;
+    }
+    .inside-article-form{
+        align-items: flex-start;
+        flex-direction: column;
+        
+    }
+    .input-con{
+        position: relative;
+        width: 100%;
+        margin-right: 75px;
+    }
+    .input-con i{
+        position: absolute;
+        left: .5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        
+    }
+    .input-con input{
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid var(--Wenge);
+        background-color: inherit;
+        /* box-shadow: 0 2px 2px var(--Wenge); */
+        padding-left: 2rem;
+        width: 100%;
+        outline: none;
+    }
+    
+}
+
+/* sm - up to 375px iphone XR */
+@media (max-width: 415px) {
+    .profile-con{
+        width: 70%;
+        height: 100%;
+        margin-bottom: 150px;
+    }
+    .register-container{
+        width:75%;
+        margin-bottom: 90px;
+    }
+
+    
+    .welcome-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+    .news-con h1{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+    }
+}
+/* md - up to 390px iPhone 12 Pro */
+@media (max-width: 390px) {
+    /* .contents {
+        width: 100%;
+    } */
+    .welcome-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+    }
+    .news-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+    .login-container {
+        width: 75%;
+        margin-top: 100px;
+    }
+    .inside-article-form {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .input-con {
+        position: relative;
+        width: 100%;
+        margin-right: 75px;
+    }
+    .input-con i {
+        position: absolute;
+        left: .5rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .input-con input {
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid var(--Wenge);
+        background-color: inherit;
+        /* box-shadow: 0 2px 2px var(--Wenge); */
+        padding-left: 2rem;
+        width: 100%;
+        outline: none;
+    }
+}
+
+
+/* sm - up to 375px  iphone SE */
+@media (max-width: 376px) {
+    /* .contents {
+        width: 100%;
+    } */
+    .welcome-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+    }
+    .news-con h1{
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+    .login-container{
+        width: 75%;
+        margin-top: 150px;
+    }
+    .register-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 500px;
+        margin-bottom: 100px;
+        size: 75%;
+        background-color: var(--WengeRgba);
+        padding: 1rem;
+        border-radius: 1rem;
+        transition: all ease-in-out .5s;
+    }
+    .inside-article-form{
+        align-items: flex-start;
+        flex-direction: column;
+        
+    }
+    .input-con{
+        position: relative;
+        width: 100%;
+        margin-right: 75px;
+    }
+    .input-con i{
+        position: absolute;
+        left: .5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        
+    }
+    .input-con input{
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid var(--Wenge);
+        background-color: inherit;
+        /* box-shadow: 0 2px 2px var(--Wenge); */
+        padding-left: 2rem;
+        width: 100%;
+        outline: none;
+    }
+    
+}
+
+/* lg - up to 1024px iPad Pro */
+@media (max-width: 1024px) {
+    /* .contents {
+        width: 100%;
+    } */
+    .welcome-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .news-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+    .register-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: var(--WengeRgba);
+        padding: 1rem;
+        border-radius: 1rem;
+        transition: all ease-in-out .5s;
+    }
+    .profile-con{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 75%;
+        height: 650px;
+        size: 75%;
+        margin-bottom: 650px;
+        background-color: var(--WengeRgba);
+        padding: 1rem;
+        border-radius: 1rem;
+        transition: all ease-in-out .5s;
+    }
+    .article-management-con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        margin-bottom: 650px;
+        background-color: var(--WengeRgba);
+        padding: 3rem;
+        border-radius: 1rem;
+    }
+    .inside-article-form {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .input-con {
+        position: relative;
+        width: 100%;
+        margin-right: 75px;
+    }
+    .input-con i {
+        position: absolute;
+        left: .5rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .input-con input {
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid var(--Wenge);
+        background-color: inherit;
+        /* box-shadow: 0 2px 2px var(--Wenge); */
+        padding-left: 2rem;
+        width: 100%;
+        outline: none;
+    }
+    .stories-con{
+        grid-template-columns: auto auto;
+    }
+}
+/* sm - up to 360px Samsung Galaxy S8+ */
+@media (max-width: 360px) {
+    /* .contents {
+        width: 100%;
+    } */
+    .welcome-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+    }
+    .news-con h1 {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+    .login-container {
+        size: 75%;
+        height: 300px;
+        margin-bottom: 250px;
+    }
+    .register-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 500px;
+        width: 85%;
+        margin-bottom: 50px;
+        size: 75%;
+        background-color: var(--WengeRgba);
+        padding: 1rem;
+        border-radius: 1rem;
+        transition: all ease-in-out .5s;
+    }
+    .profile-con {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 75%;
+        height: 600px;
+        size: 75%;
+        margin-bottom: 50px;
+        background-color: var(--WengeRgba);
+        padding: 1rem;
+        border-radius: 1rem;
+        transition: all ease-in-out .5s;
+    }
+    .article-management-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-bottom: 65px;
+        background-color: var(--WengeRgba);
+        padding: 3rem;
+        border-radius: 1rem;
+        
+    }
+    .inside-article-form {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .input-con {
+        position: relative;
+        width: 100%;
+        margin-right: 75px;
+        
+    }
+    .input-con i {
+        position: absolute;
+        left: .5rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .input-con input {
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid var(--Wenge);
+        background-color: inherit;
+        /* box-shadow: 0 2px 2px var(--Wenge); */
+        padding-left: 2rem;
+        width: 100%;
+        outline: none;
+        width: 190px;
+    }
+}
